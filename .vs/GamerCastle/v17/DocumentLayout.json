@@ -1,0 +1,991 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\managers\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\managers\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\user\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\user\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\managers\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\managers\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\admin\\productmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\admin\\productmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\admin\\ordersmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\admin\\ordersmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\game\\index2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\game\\index2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\migrations\\20250210125256_tfl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\migrations\\20250210125256_tfl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\game\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\game\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\home\\indexafterlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\home\\indexafterlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\game\\checkcompatibility.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\game\\checkcompatibility.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\product\\buynow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\product\\buynow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\contexts\\mydbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\contexts\\mydbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\cart\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\cart\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\game\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\game\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\game\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\game\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\order\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\order\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\order\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\order\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\models\\checkcompatibilityviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\models\\checkcompatibilityviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\services\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\services\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\game\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\game\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\game\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\game\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\managers\\igamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\managers\\igamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\managers\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\managers\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\managers\\iproductmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\managers\\iproductmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\managers\\iordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\managers\\iordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\admin\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\admin\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\managers\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\managers\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|c:\\ms.net\\gamerscastlefinal\\gamers_castle_dotnet\\gamercastle\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4C7F3CD6-0FBF-4827-8F8F-3BDA9F33AEAE}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderManager.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Managers\\OrderManager.cs",
+              "RelativeDocumentMoniker": "Application\\Managers\\OrderManager.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Managers\\OrderManager.cs",
+              "RelativeToolTip": "Application\\Managers\\OrderManager.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAgwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T02:47:57.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Managers\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Managers\\UserRepository.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Managers\\UserRepository.cs",
+              "RelativeToolTip": "Application\\Managers\\UserRepository.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAD4vxUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T07:56:15.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "Application\\Controllers\\GameController.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Controllers\\GameController.cs",
+              "RelativeToolTip": "Application\\Controllers\\GameController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAgwGIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T07:07:42.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Application\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAhwBoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T14:33:34.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "Application\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAF0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T09:23:16.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\User\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\User\\SignUp.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\User\\SignUp.cshtml",
+              "RelativeToolTip": "Application\\Views\\User\\SignUp.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvycAAACiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T07:17:15.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Application\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Application\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAWwCUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T07:07:17.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAD4vxoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T03:02:54.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Application\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T02:57:06.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrdersMenu.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Admin\\OrdersMenu.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Admin\\OrdersMenu.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Admin\\OrdersMenu.cshtml",
+              "RelativeToolTip": "Application\\Views\\Admin\\OrdersMenu.cshtml",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAhwLMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T09:44:50.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductMenu.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Admin\\ProductMenu.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Admin\\ProductMenu.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Admin\\ProductMenu.cshtml",
+              "RelativeToolTip": "Application\\Views\\Admin\\ProductMenu.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T02:57:28.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Application\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Application\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T03:23:00.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Application\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Application\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T09:36:26.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Application\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Application\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T03:11:30.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index2.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Game\\Index2.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Game\\Index2.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Game\\Index2.cshtml",
+              "RelativeToolTip": "Application\\Views\\Game\\Index2.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T15:10:51.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Application\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Application\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:43:36.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250210125256_tfl.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Migrations\\20250210125256_tfl.cs",
+              "RelativeDocumentMoniker": "Application\\Migrations\\20250210125256_tfl.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Migrations\\20250210125256_tfl.cs",
+              "RelativeToolTip": "Application\\Migrations\\20250210125256_tfl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:52:57.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CheckCompatibility.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Game\\CheckCompatibility.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Game\\CheckCompatibility.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Game\\CheckCompatibility.cshtml",
+              "RelativeToolTip": "Application\\Views\\Game\\CheckCompatibility.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-09T13:38:39.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Game\\Index.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Game\\Index.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Game\\Index.cshtml",
+              "RelativeToolTip": "Application\\Views\\Game\\Index.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAhwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-09T10:26:00.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index1.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Game\\Index1.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Game\\Index1.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Game\\Index1.cshtml",
+              "RelativeToolTip": "Application\\Views\\Game\\Index1.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-09T13:26:12.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Program.cs",
+              "RelativeDocumentMoniker": "Application\\Program.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Program.cs",
+              "RelativeToolTip": "Application\\Program.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAowDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:44:24.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IndexAfterLogin.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Home\\IndexAfterLogin.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Home\\IndexAfterLogin.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Home\\IndexAfterLogin.cshtml",
+              "RelativeToolTip": "Application\\Views\\Home\\IndexAfterLogin.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAhwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T06:58:42.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BuyNow.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Product\\BuyNow.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Product\\BuyNow.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Product\\BuyNow.cshtml",
+              "RelativeToolTip": "Application\\Views\\Product\\BuyNow.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAhwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T06:03:02.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MyDbContex.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Contexts\\MyDbContex.cs",
+              "RelativeDocumentMoniker": "Application\\Contexts\\MyDbContex.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Contexts\\MyDbContex.cs",
+              "RelativeToolTip": "Application\\Contexts\\MyDbContex.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAWwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T14:19:44.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Application\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Application\\Controllers\\CartController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAWwEEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T13:11:49.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\Game.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Models\\Game.cs",
+              "RelativeToolTip": "Application\\Models\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T06:51:46.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\appsettings.json",
+              "RelativeDocumentMoniker": "Application\\appsettings.json",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\appsettings.json",
+              "RelativeToolTip": "Application\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-02T12:44:33.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ViewCart.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Cart\\ViewCart.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Cart\\ViewCart.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Cart\\ViewCart.cshtml",
+              "RelativeToolTip": "Application\\Views\\Cart\\ViewCart.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAhwCsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T02:32:37.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Game\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Game\\Delete.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Game\\Delete.cshtml",
+              "RelativeToolTip": "Application\\Views\\Game\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-09T10:29:40.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Game\\Create.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Game\\Create.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Game\\Create.cshtml",
+              "RelativeToolTip": "Application\\Views\\Game\\Create.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-09T10:28:15.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\Cart.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Models\\Cart.cs",
+              "RelativeToolTip": "Application\\Models\\Cart.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAWwCUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:43:59.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Models\\CartItem.cs",
+              "RelativeToolTip": "Application\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T02:21:43.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Order\\OrderConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Order\\OrderConfirmation.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Order\\OrderConfirmation.cshtml",
+              "RelativeToolTip": "Application\\Views\\Order\\OrderConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T09:20:33.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MyOrders.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Order\\MyOrders.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Order\\MyOrders.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Order\\MyOrders.cshtml",
+              "RelativeToolTip": "Application\\Views\\Order\\MyOrders.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAhwBwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T13:27:10.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IGameService.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Services\\IGameService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\IGameService.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Services\\IGameService.cs",
+              "RelativeToolTip": "Application\\Services\\IGameService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T10:04:00.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Services\\GameService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\GameService.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Services\\GameService.cs",
+              "RelativeToolTip": "Application\\Services\\GameService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAD4vyMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T10:04:19.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CheckCompatibilityViewModel.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Models\\CheckCompatibilityViewModel.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\CheckCompatibilityViewModel.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Models\\CheckCompatibilityViewModel.cs",
+              "RelativeToolTip": "Application\\Models\\CheckCompatibilityViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T13:49:17.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Game\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Game\\Edit.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Game\\Edit.cshtml",
+              "RelativeToolTip": "Application\\Views\\Game\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-09T10:28:54.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "Application\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T07:08:22.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Managers\\GameManager.cs",
+              "RelativeDocumentMoniker": "Application\\Managers\\GameManager.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Managers\\GameManager.cs",
+              "RelativeToolTip": "Application\\Managers\\GameManager.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAWwEEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T10:05:31.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Game\\Details.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Game\\Details.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Game\\Details.cshtml",
+              "RelativeToolTip": "Application\\Views\\Game\\Details.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-09T10:27:39.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IGameManager.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Managers\\IGameManager.cs",
+              "RelativeDocumentMoniker": "Application\\Managers\\IGameManager.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Managers\\IGameManager.cs",
+              "RelativeToolTip": "Application\\Managers\\IGameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T10:05:18.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Services\\OrderService.cs",
+              "RelativeToolTip": "Application\\Services\\OrderService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T10:13:20.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\IOrderService.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Services\\IOrderService.cs",
+              "RelativeToolTip": "Application\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T10:13:15.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Managers\\ProductManager.cs",
+              "RelativeDocumentMoniker": "Application\\Managers\\ProductManager.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Managers\\ProductManager.cs",
+              "RelativeToolTip": "Application\\Managers\\ProductManager.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowCsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:43:42.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\IProductService.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Services\\IProductService.cs",
+              "RelativeToolTip": "Application\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T03:09:38.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IProductManager.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Managers\\IProductManager.cs",
+              "RelativeDocumentMoniker": "Application\\Managers\\IProductManager.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Managers\\IProductManager.cs",
+              "RelativeToolTip": "Application\\Managers\\IProductManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T02:46:43.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\Order.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Models\\Order.cs",
+              "RelativeToolTip": "Application\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:44:03.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Application\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T09:35:44.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Product\\List.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Product\\List.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Product\\List.cshtml",
+              "RelativeToolTip": "Application\\Views\\Product\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T10:53:34.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Application\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwCEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T13:02:47.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\User.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Models\\User.cs",
+              "RelativeToolTip": "Application\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAEwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:44:08.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "Application\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "Application\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-06T07:17:49.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UpdateProduct.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Admin\\UpdateProduct.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Admin\\UpdateProduct.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Admin\\UpdateProduct.cshtml",
+              "RelativeToolTip": "Application\\Views\\Admin\\UpdateProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T04:37:31.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Services\\UserServices.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\UserServices.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Services\\UserServices.cs",
+              "RelativeToolTip": "Application\\Services\\UserServices.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwB0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T08:10:40.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IOrderManager.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Managers\\IOrderManager.cs",
+              "RelativeDocumentMoniker": "Application\\Managers\\IOrderManager.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Managers\\IOrderManager.cs",
+              "RelativeToolTip": "Application\\Managers\\IOrderManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T02:47:16.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Application\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T13:02:25.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Managers\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Managers\\IUserRepository.cs",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Managers\\IUserRepository.cs",
+              "RelativeToolTip": "Application\\Managers\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T08:05:28.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Application\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Application\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T13:02:46.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "C:\\Ms.Net\\GamersCastlefinal\\Gamers_Castle_DotNet\\GamerCastle\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-03T14:20:32.338Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

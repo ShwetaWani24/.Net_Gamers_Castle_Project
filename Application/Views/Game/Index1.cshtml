@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Entities.Game>
+
+<h2 class="text-center">Games</h2>
+
+<div class="row">
+    @foreach (var game in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card shadow">
+                <img src="@game.ImageUrl" class="card-img-top" alt="@game.Title" style="height: 400px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">@game.Title</h5>
+                    <p class="card-text">@game.Description</p>
+                    <a href="@game.TrailerUrl" class="btn btn-secondary btn-sm" target="_blank">Watch Trailer</a>
+                    
+
+                </div>
+            </div>
+        </div>
+    }
+</div>

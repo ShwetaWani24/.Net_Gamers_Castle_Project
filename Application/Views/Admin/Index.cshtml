@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <!-- Product Menu Section -->
+        <div class="col-md-4">
+            <div class="card mb-4" style="width: 18rem;">
+                <img src="https://c8.alamy.com/comp/2BKWXB4/pc-computer-hardware-components-electronics-collage-cpu-micro-processor-graphics-card-power-supply-ddr-ram-headset-vr-glasses-solid-state-ssd-hard-dr-2BKWXB4.jpg" class="card-img-top" alt="Product Image">
+                <div class="card-body">
+                    <h5 class="card-title">Product Menu</h5>
+                    <p class="card-text">Manage your products here.</p>
+                    <a href="@Url.Action("ProductMenu", "Admin")" class="btn btn-primary">Go to Product Menu</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Order Menu Section -->
+        <div class="col-md-4">
+            <div class="card mb-4" style="width: 18rem;">
+                <img src="https://cdn5.vectorstock.com/i/1000x1000/88/84/complete-order-icon-in-filled-line-style-for-any-vector-35318884.jpg" class="card-img-top" alt="Order Image">
+                <div class="card-body">
+                    <h5 class="card-title">Order Menu</h5>
+                    <p class="card-text">Manage customer orders here.</p>
+                    <a href="@Url.Action("OrdersMenu", "Admin")" class="btn btn-primary">Go to Order Menu</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4" style="width: 18rem;">
+                <img src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://media.easy-peasy.ai/e033f8a3-b742-4b81-82e3-cd68f648f722/36fdcc4e-c983-4056-8121-05d17ae7f604.png"" class="card-img-top" alt="Order Image">
+                <div class="card-body">
+                    <h5 class="card-title">Game Menu</h5>
+                    <p class="card-text">Manage customer orders here.</p>
+                    <a href="@Url.Action("Index", "Game")" class="btn btn-primary">Go to Game Menu</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

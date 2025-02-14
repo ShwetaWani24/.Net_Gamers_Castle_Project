@@ -1,0 +1,191 @@
+﻿@{
+    ViewData["Title"] = "OrdersMenu";
+}
+
+<h3>OrdersMenu</h3>
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <!-- Update Order Status -->
+        <div class="col-md-4">
+            <div class="card mb-4" style="width: 18rem;">
+                <img src="https://static.vecteezy.com/system/resources/previews/022/597/173/non_2x/3d-order-online-shop-png.png" class="card-img-top" alt="Status Image">
+                <div class="card-body">
+                    <h5 class="card-title">Update Order Status</h5>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updateOrderStatusModal">Update</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Update Order Date -->
+        <div class="col-md-4">
+            <div class="card mb-4" style="width: 18rem;">
+                <img src="https://static.vecteezy.com/system/resources/previews/022/597/173/non_2x/3d-order-online-shop-png.png" class="card-img-top" alt="Order Date Image">
+                <div class="card-body">
+                    <h5 class="card-title">Update Order Date</h5>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updateOrderDateModal">Update</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Order by Product -->
+        <div class="col-md-4">
+            <div class="card mb-4" style="width: 18rem;">
+                <img src="https://static.vecteezy.com/system/resources/previews/022/597/173/non_2x/3d-order-online-shop-png.png" class="card-img-top" alt="Product Image">
+                <div class="card-body">
+                    <h5 class="card-title">Search Order By Product</h5>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#searchByProductModal">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <!-- Order by City -->
+        <div class="col-md-4">
+            <div class="card mb-4" style="width: 18rem;">
+                <img src="https://static.vecteezy.com/system/resources/previews/022/597/173/non_2x/3d-order-online-shop-png.png" class="card-img-top" alt="City Image">
+                <div class="card-body">
+                    <h5 class="card-title">Search Orders By City</h5>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#searchByCityModal">Search</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Order Summary -->
+        <div class="col-md-4">
+            <div class="card mb-4" style="width: 18rem;">
+                <img src="https://static.vecteezy.com/system/resources/previews/022/597/173/non_2x/3d-order-online-shop-png.png" class="card-img-top" alt="Summary Image">
+                <div class="card-body">
+                    <h5 class="card-title">Show Order Summary</h5>
+                    <a href="@Url.Action("ShowOrders", "Admin")" class="btn btn-primary">Show</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Update Order Status -->
+<div class="modal fade" id="updateOrderStatusModal" tabindex="-1" aria-labelledby="updateOrderStatusModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="updateOrderStatusModalLabel">Update Order Status</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="@Url.Action("UpdateOrderStatus", "Admin")">
+                    <div class="mb-3">
+                        <label for="orderIdStatus" class="form-label">Order ID</label>
+                        <input type="text" class="form-control" id="orderIdStatus" name="orderId" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="orderStatus" class="form-label">Order Status</label>
+                        <select class="form-select" id="orderStatus" name="orderStatus" required>
+                            <option value="Pending">Pending</option>
+                            <option value="Delivered">Delivered</option>
+                            <option value="Cancelled">Cancelled</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Change Status</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Updating Order Date -->
+@* <div class="modal fade" id="updateOrderDateModal" tabindex="-1" aria-labelledby="updateOrderDateModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="updateOrderDateModalLabel">Update Order Date</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="@Url.Action("UpdateOrderDate", "Admin")">
+                    <div class="mb-3">
+                        <label for="orderIdDate" class="form-label">Order ID</label>
+                        <input type="text" class="form-control" id="orderId" name="orderId" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="orderDate" class="form-label">Select New Order Date</label>
+                        <input type="date" class="form-control" id="orderDate" name="orderDate" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Update Date</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> *@
+<!--Order Date -->
+<div class="modal fade" id="updateOrderDateModal" tabindex="-1" aria-labelledby="updateOrderDateModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="updateOrderDateModalLabel">Update Order Date</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="@Url.Action("UpdateOrderDate", "Admin")">
+                    <div class="mb-3">
+                        <label for="orderIdDate" class="form-label">Order ID</label>
+                        <input type="text" class="form-control" id="orderIdDate" name="orderId" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="orderDateTime" class="form-label">Select New Order Date and Time</label>
+                        <input type="datetime-local" class="form-control" id="orderDateTime" name="orderDateTime" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Update Date</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Search by Product -->
+<div class="modal fade" id="searchByProductModal" tabindex="-1" aria-labelledby="searchByProductModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchByProductModalLabel">Search Orders by Product</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="@Url.Action("SearchOrderByProduct", "Admin")">
+                    <div class="mb-3">
+                        <label for="productName" class="form-label">Product Name</label>
+                        <input type="text" class="form-control" id="productName" name="productName" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Searc by City -->
+<div class="modal fade" id="searchByCityModal" tabindex="-1" aria-labelledby="searchByCityModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchByCityModalLabel">Search Orders by City</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="@Url.Action("SearchOrderByCity", "Admin")">
+                    <div class="mb-3">
+                        <label for="cityName" class="form-label">City Name</label>
+                        <input type="text" class="form-control" id="cityName" name="cityName" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+}
+
+

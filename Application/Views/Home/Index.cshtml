@@ -1,0 +1,40 @@
+﻿@model List<Entities.Product>  //This tells the view that the model will be a list of Product objects
+
+@{
+    ViewData["Title"] = "Home Page";
+
+}
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/style.css" />
+</head>
+
+<h1>Welcome to Gamers Castle</h1>
+<h3>Our Products</h3>
+
+<div class="product-list">
+    @foreach (var product in Model)
+    {
+        <div class="product-item">
+
+            <img src="@product.ImageUrl" alt="@product.ProductName" class="product-image" />
+
+
+            <h4>@product.ProductName</h4>
+
+
+            <p>@product.Description</p>
+
+            <p><strong>Price: </strong>@product.Price</p>
+            @*  <p><strong>Stock: </strong>@product.Stock</p> *@
+            @* <label for="quantity-@product.ProductId">Quantity:</label>
+            <input type="number" id="quantity-@product.ProductId" name="quantity-@product.ProductId" min="1" max="@product.Stock" value="1" />
+ *@
+
+            @*<button class="add-to-cart" data-product-id="@product.ProductId">Buy Now</button>
+            <a asp-action="IndexAfterLogin"> Buy Now</a>*@
+            <a href="@Url.Action("Login", "User")" class="btn btn-success">Buy Now</a>
+
+        </div>
+    }
+</div>
+

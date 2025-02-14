@@ -1,0 +1,101 @@
+﻿@model Entities.Cart
+
+<h2 class="cart-title">Your Cart</h2>
+
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Remove</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td>@item.Product.ProductName</td>
+                <td>@item.Product.Price</td>
+                <td>@item.Quantity</td>
+                <td>
+                    <a href="@Url.Action("RemoveFromCart", "Cart", new { productId = item.ProductId })" class="btn btn-outline-danger btn-sm">
+                        Remove
+                    </a>
+                </td>
+                <td>
+                    <a href="@Url.Action("BuyNow", "Product", new { productId = item.ProductId, quantity = item.Quantity })" class="btn btn-dark btn-sm">
+                        Buy Now
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3 class="total-price">Total: @Model.GetTotalPrice()</h3>
+
+<style>
+    body {
+        background-color: #f8f9fa; /* Light background */
+        color: #212529;
+        font-family: Arial, sans-serif;
+    }
+
+    .cart-title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .table {
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+        .table thead {
+            background-color: #343a40;
+            color: white;
+        }
+
+        .table th, .table td {
+            text-align: center;
+            padding: 12px;
+        }
+
+    .btn {
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .btn-outline-danger {
+        border: 2px solid #dc3545;
+        color: #dc3545;
+    }
+
+        .btn-outline-danger:hover {
+            background-color: #dc3545;
+            color: white;
+        }
+
+    .btn-dark {
+        background-color: black;
+        color: white;
+        border: none;
+    }
+
+        .btn-dark:hover {
+            background-color: #343a40;
+        }
+
+    .total-price {
+        text-align: right;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 15px;
+        margin-right: 5%;
+    }
+</style>

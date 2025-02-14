@@ -1,0 +1,126 @@
+﻿@{
+    ViewData["Title"] = "Sign Up";
+}
+
+@model Entities.User
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-dark text-white text-center py-4">
+                    <h3>Sign Up</h3>
+                </div>
+                <div class="card-body bg-light p-4">
+                    <form asp-action="SignUp" method="post" novalidate>
+                        <!-- Name Field -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Name" class="form-label text-dark">Name</label>
+                            <input asp-for="Name" class="form-control bg-white text-dark" placeholder="Enter your name" required pattern="^[A-Za-z\s]{3,50}$" title="Enter a valid name (3-50 characters, letters only)" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <!-- Address Field -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Address" class="form-label text-dark">Address</label>
+                            <input asp-for="Address" class="form-control bg-white text-dark" placeholder="Enter your address" required pattern="^[A-Za-z0-9\s,.-]{5,100}$" title="Enter a valid address (5-100 characters)" />
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+
+                        <!-- Contact Field -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Contact" class="form-label text-dark">Contact</label>
+                            <input asp-for="Contact" class="form-control bg-white text-dark" placeholder="Enter your contact number" required pattern="^\d{10}$" title="Enter a valid 10-digit contact number" />
+                            <span asp-validation-for="Contact" class="text-danger"></span>
+                        </div>
+
+                        <!-- Email Field -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Email" class="form-label text-dark">Email</label>
+                            <input asp-for="Email" class="form-control bg-white text-dark" placeholder="Enter your email" required pattern="^[a-zA-Z0-9._%+-]+[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="Enter a valid email address" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <!-- Password Field -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Password" class="form-label text-dark">Password</label>
+                            <input asp-for="Password" type="password" class="form-control bg-white text-dark" placeholder="Enter your password" required pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[\W_])[A-Za-z\d\W_]{6,}$" title="Password must be at least 6 characters and include a letter, number, and special character" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <!-- Role Field -->
+                        <div class="form-group mb-4">
+                            <label asp-for="Role" class="form-label text-dark">Role</label>
+                            <select asp-for="Role" class="form-control bg-white text-dark" required>
+                                <option value="">Select a role</option>
+                                <option>Admin</option>
+                                <option>User</option>
+                            </select>
+                            <span asp-validation-for="Role" class="text-danger"></span>
+                        </div>
+
+                        <!-- Buttons -->
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-dark btn-lg">Sign Up</button>
+                            <a asp-action="Index" class="btn btn-outline-dark btn-lg">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+}
+
+<!-- Optional: Add custom CSS for additional styling -->
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .card {
+        border-radius: 10px;
+        border: none;
+    }
+
+    .card-header {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .btn-dark {
+        background-color: #000;
+        border: none;
+    }
+
+    .btn-dark:hover {
+        background-color: #333;
+    }
+
+    .btn-outline-dark {
+        border-color: #000;
+        color: #000;
+    }
+
+    .btn-outline-dark:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .form-control {
+        border: 1px solid #ddd;
+    }
+
+    .form-control:focus {
+        border-color: #000;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .text-danger {
+        font-size: 0.9rem;
+    }
+</style>

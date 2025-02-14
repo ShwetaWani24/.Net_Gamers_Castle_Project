@@ -1,0 +1,22 @@
+﻿@model Entities.Order
+
+<h2>Order Confirmation</h2>
+
+<div class="card mt-3">
+    <div class="card-body">
+        <h4>Thank you for your purchase, @ViewData["UserName"]!</h4>
+        <p><strong>Order ID:</strong> @Model.OrderId</p>
+        <p><strong>Product ID:</strong> @Model.ProductId</p>
+        <p><strong>Price:</strong> @Model.Total</p>
+        <p><strong>Order Date:</strong> @Model.OrderDate.ToString("dd/MM/yyyy hh:mm tt")</p>
+        
+        <a href="@Url.Action("List", "Product")" class="btn btn-primary mt-3">Back to Products</a>
+    </div>
+</div>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger mt-3">
+        @TempData["ErrorMessage"]
+    </div>
+}

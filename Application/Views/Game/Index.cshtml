@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Entities.Game>
+
+<h2 class="text-center">Games</h2>
+
+<p class="text-center">
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<div class="row">
+    @foreach (var game in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card shadow">
+                <img src="@game.ImageUrl" class="card-img-top" alt="@game.Title" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">@game.Title</h5>
+                    <p class="card-text text-truncate">@game.Description</p>
+                    <a href="@game.TrailerUrl" class="btn btn-secondary btn-sm" target="_blank">Watch Trailer</a>
+                </div>
+                <div class="card-footer text-center">
+                    <a asp-action="Edit" asp-route-id="@game.GameId" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-action="Details" asp-route-id="@game.GameId" class="btn btn-info btn-sm">Details</a>
+                    <a asp-action="Delete" asp-route-id="@game.GameId" class="btn btn-danger btn-sm">Delete</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

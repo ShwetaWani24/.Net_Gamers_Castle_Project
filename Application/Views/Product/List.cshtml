@@ -1,0 +1,68 @@
+﻿@model List<Entities.Product>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Available Products</title>
+    
+        <link rel="stylesheet" type="text/css" href="~/css/style.css" />
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">GameStore</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("ViewCart", "Cart")">My Cart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("MyOrders", "Order")">My Orders</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-danger text-white" href="@Url.Action("Login", "User")">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Product List -->
+    <div class="product-list">
+        @foreach (var product in Model)
+        {
+            <div class="product-item">
+
+                <img src="@product.ImageUrl" alt="@product.ProductName" class="product-image" />
+
+
+                <h4>@product.ProductName</h4>
+
+
+                <p>@product.Description</p>
+
+                <p><strong>Price: </strong>@product.Price</p>
+
+                <label for="quantity-@product.ProductId">Quantity:</label>
+                <input type="number" id="quantity-@product.ProductId" name="quantity-@product.ProductId" min="1" max="@product.Stock" value="1" />
+
+
+                <a href="@Url.Action("BuyNow", "Product", new { productId = product.ProductId })" class="btn btn-primary">
+                    Buy Now
+                </a>
+                <a href="@Url.Action("AddToCart", "Cart", new { productId = product.ProductId,Total=product.Price })" class="btn btn-primary">
+                    Add to Cart
+                </a>
+            </div>
+        }
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

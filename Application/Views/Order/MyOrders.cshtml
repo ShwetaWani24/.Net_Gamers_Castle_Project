@@ -1,0 +1,40 @@
+﻿@using Entities
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	List<Order> list = ViewBag.orders;
+}
+@model List<Entities.Order>
+
+<h2>My Orders</h2>
+
+@if (list!=null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                
+                <th>Product ID</th>
+                <th>Total</th>
+                <th>Order Date</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in list)
+            {
+                <tr>
+                    <td>@order.ProductId</td>
+                    <td>@order.Total.ToString("N0")</td> 
+                    <td>@order.OrderDate.ToString("g")</td>
+                    <td>@order.OrderStatus</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>You have no orders.</p>
+}

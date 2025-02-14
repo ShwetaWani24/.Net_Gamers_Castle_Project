@@ -1,0 +1,19 @@
+﻿@model CheckCompatibilityViewModel
+
+<h2>PC Compatibility for @Model.Game.Title</h2>
+
+<div class="card">
+    <img src="@Model.Game.ImageUrl" class="card-img-top" alt="@Model.Game.Title" style="height: 250px; object-fit: cover;">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Game.Title</h5>
+        <p class="card-text">@Model.Game.Description</p>
+        <hr>
+        <h5>Your PC Specifications</h5>
+        <ul>
+            <li><strong>GPU:</strong> @Model.UserPcSpecs.GPU</li>
+            <li><strong>CPU:</strong> @Model.UserPcSpecs.CPU</li>
+            <li><strong>RAM:</strong> @Model.UserPcSpecs.RAM GB</li>
+        </ul>
+        <h4>Estimated FPS: <span class="text-success">@Model.EstimatedFps FPS</span></h4>
+    </div>
+</div>
